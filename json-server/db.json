@@ -1,0 +1,351 @@
+{
+  "ceos": [
+    {
+      "id": 0,
+      "ceoId": 0,
+      "name": "Eshwar",
+      "img": "userPhoto"
+    },
+    {
+      "id": 1,
+      "ceoId": 1,
+      "name": "Kishore Poreddy",
+      "img": "userPhoto"
+    }
+  ],
+  "dms": [
+    {
+      "id": 0,
+      "dmId": 0,
+      "ceoId": 0,
+      "candidateId": 2
+    },
+    {
+      "id": 1,
+      "dmId": 1,
+      "ceoId": 0,
+      "candidateId": 3
+    },
+    {
+      "id": 2,
+      "dmId": 2,
+      "ceoId": 0,
+      "candidateId": 4
+    },
+    {
+      "id": 3,
+      "dmId": 3,
+      "ceoId": 1,
+      "candidateId": 7
+    },
+    {
+      "id": 4,
+      "dmId": 4,
+      "ceoId": 1,
+      "candidateId": 8
+    }
+  ],
+  "pms": [
+    {
+      "id": 0,
+      "pmId": 0,
+      "dmId": 0,
+      "candidateId": 5
+    },
+    {
+      "id": 1,
+      "pmId": 1,
+      "dmId": 0,
+      "candidateId": 6
+    },
+    {
+      "id": 2,
+      "pmId": 2,
+      "dmId": 0,
+      "candidateId": 7
+    },
+    {
+      "id": 3,
+      "pmId": 3,
+      "dmId": 1,
+      "candidateId": 8
+    },
+    {
+      "id": 4,
+      "pmId": 4,
+      "dmId": 1,
+      "candidateId": 9
+    }
+  ],
+  "clients": [
+    {
+      "id": 0,
+      "clientId": 0,
+      "dmId": 0,
+      "pmId": 0,
+      "name": "SkyHive"
+    },
+    {
+      "id": 1,
+      "clientId": 1,
+      "dmId": 0,
+      "pmId": 0,
+      "name": "JNJ"
+    },
+    {
+      "id": 2,
+      "clientId": 2,
+      "dmId": 0,
+      "pmId": 0,
+      "name": "Bluevector"
+    }
+  ],
+  "projects": [
+    {
+      "id": 0,
+      "projectId": 0,
+      "clientId": 0,
+      "name": "DayZero",
+      "projectDetails": [
+        [
+          {
+            "leadId": 5,
+            "teamMembersIds": [
+              5,
+              11,
+              12
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "id": 1,
+      "projectId": 1,
+      "clientId": 0,
+      "name": "Refugee",
+      "projectDetails": [
+        [
+          {
+            "leadId": 5
+          }
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "projectId": 2,
+      "clientId": 0,
+      "name": "Answers",
+      "projectDetails": [
+        [
+          {
+            "leadId": 5,
+            "teamMembersIds": [
+              11,
+              12
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "id": 1667467748236,
+      "projectId": 3,
+      "clientId": 0,
+      "name": "Enterprise",
+      "projectDetails": [
+        [
+          {
+            "leadId": 5
+          }
+        ]
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": 0,
+      "skillId": 0,
+      "title": "React JS"
+    },
+    {
+      "id": 1,
+      "skillId": 1,
+      "title": "Angular"
+    },
+    {
+      "id": 2,
+      "skillId": 2,
+      "title": "Vue JS"
+    },
+    {
+      "id": 3,
+      "skillId": 3,
+      "title": "Node JS"
+    },
+    {
+      "id": 4,
+      "skillId": 4,
+      "title": "QA"
+    }
+  ],
+  "candidates": [
+    {
+      "id": 0,
+      "candidateId": 0,
+      "name": "Eshwar",
+      "surname": "Lingam",
+      "skills": [
+        0,
+        1,
+        3
+      ],
+      "img": "userPhoto"
+    },
+    {
+      "id": 1,
+      "candidateId": 1,
+      "name": "Kishore",
+      "surname": "Poreddy",
+      "skills": [
+        0,
+        1,
+        3
+      ],
+      "img": "userPhoto"
+    },
+    {
+      "id": 2,
+      "candidateId": 2,
+      "name": "Mohammed Irshad",
+      "surname": "Ahmed",
+      "skills": [
+        0,
+        1,
+        3
+      ],
+      "img": "userPhoto"
+    },
+    {
+      "id": 3,
+      "candidateId": 3,
+      "name": "Pavan",
+      "surname": "Arra",
+      "skills": [
+        0,
+        1,
+        3
+      ],
+      "img": "userPhoto"
+    },
+    {
+      "id": 4,
+      "candidateId": 4,
+      "name": "Ravi",
+      "surname": "Rampalli",
+      "skills": [
+        0,
+        1,
+        3
+      ],
+      "img": "userPhoto"
+    },
+    {
+      "id": 5,
+      "candidateId": 5,
+      "name": "Jithin Seelam",
+      "surname": "Jawahar",
+      "skills": [
+        0,
+        1,
+        3
+      ],
+      "img": "userPhoto"
+    },
+    {
+      "id": 6,
+      "candidateId": 6,
+      "name": "Shanthan",
+      "surname": "Nedunoori",
+      "skills": [
+        0,
+        1,
+        3
+      ],
+      "img": "userPhoto"
+    },
+    {
+      "id": 7,
+      "candidateId": 7,
+      "name": "Swetha",
+      "surname": "Vejella",
+      "skills": [
+        0,
+        1,
+        3
+      ],
+      "img": "userPhoto"
+    },
+    {
+      "id": 8,
+      "candidateId": 8,
+      "name": "Mamtha",
+      "surname": "Annigeri",
+      "skills": [
+        0,
+        1,
+        3
+      ],
+      "img": "userPhoto"
+    },
+    {
+      "id": 9,
+      "candidateId": 9,
+      "name": "Nishitha",
+      "surname": "Algubelli",
+      "skills": [
+        0,
+        1,
+        3
+      ],
+      "img": "userPhoto"
+    },
+    {
+      "id": 10,
+      "candidateId": 10,
+      "name": "Simran",
+      "surname": "Mrunalini",
+      "skills": [
+        0,
+        1,
+        3
+      ],
+      "img": "userPhoto"
+    },
+    {
+      "id": 11,
+      "candidateId": 11,
+      "name": "Manoj Kumar",
+      "surname": "Jadala",
+      "skills": [
+        0,
+        1,
+        3
+      ],
+      "img": "userPhoto"
+    },
+    {
+      "id": 12,
+      "candidateId": 12,
+      "name": "Manideep",
+      "surname": "Kotagiri",
+      "skills": [
+        0,
+        1,
+        3
+      ],
+      "img": "userPhoto"
+    }
+  ]
+}

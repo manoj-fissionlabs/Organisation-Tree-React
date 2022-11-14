@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --site-color: #ff5722;
+  --site-color-primary: #ff5722;
+  --site-color-secondary: #BC117F;
+  --site-bg-color: #f4f4f4;
+  --site-border-color: #c2c2c2;
+}
+
+body {
+  margin: 0;
+  font-family: Lato, Roboto, Helvetica, sans-serif;
+  background-color: var(--site-bg-color);
+}

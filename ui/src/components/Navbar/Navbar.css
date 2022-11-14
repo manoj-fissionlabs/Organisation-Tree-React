@@ -1,0 +1,11 @@
+.site-navbar {
+    background-color: var(--site-color-primary);
+    color: #fff;
+}
+.navbar-title, .navbar-title:hover {
+    color: #fff !important;
+    font-size: 1.5rem;
+}
+.navbar-text {
+    color: #fff;
+}
